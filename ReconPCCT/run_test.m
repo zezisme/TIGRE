@@ -5,8 +5,8 @@ cd 'E:\zhouenze\code_TIGRE' %修改成代码所在文件夹路径
 addpath(genpath('~\TIGRE-master\MATLAB')) %添加tigre重建代码位置
 
 is_write2dicom = 1;%是否保存重建结果为dicom文件
-data_dir_root  = 'J:\核桃（海大15组）\投影数据\';%待重建数据集根路径
-save_path = 'J:\核桃（海大15组）\重建图像\';%保存根路径
+data_dir_root  = 'J:\核桃\投影数据\';%待重建数据集根路径
+save_path = 'J:\核桃\重建图像\';%保存根路径
 
 recon_type = 1;%1:FDK,2:FDK+TV.....
 dose_ratio = 1; %重建剂量设置，1：全剂量，2：只选择1/2角度剂量；以此类推......
