@@ -1,6 +1,6 @@
 clear all
 close all
-cd 'E:\zhouenze\研究生\光子计数CT\成果\数据集\code_TIGRE' %修改成代码所在文件夹路径
+cd 'E:\zhouenze\code_TIGRE' %修改成代码所在文件夹路径
 % add TIGRE toolbox to the matlab path
 addpath(genpath('~\TIGRE-master\MATLAB')) %添加tigre重建代码位置
 
