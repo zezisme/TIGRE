@@ -14,6 +14,8 @@ for improved image quality that have all been optimized to run on GPUs
 abstraction of MATLAB or Python with the performance of CUDA at a lower level in order to make 
 it both fast and easy to use.
 
+Read the most up to date article about tigre [here](https://iopscience.iop.org/article/10.1088/2631-8695/adbb3a).
+
 TIGRE is free to download and distribute: use it, modify it, add to it, 
 share it. Our aim is to provide a wide range of easy-to-use algorithms 
 for the tomographic community "off the shelf".  We would like to build a 
@@ -28,6 +30,8 @@ application, do not hesitate to [contact us](#contact) or open a  [discussion th
  - [TIGRE features](#features)
  
  - [Installation instructions](#installation)
+
+ - [Getting started](#getting-started)
  
  - [FAQ](#faq)
   
@@ -85,6 +89,12 @@ MATLAB and Python builds are both fully supported.
 - [Tune TIGRE for machine. Tricks to slightly speed up the code](Frontispiece/Tune_TIGRE.md)
 
 
+## Getting started
+
+Once TIGRE in installed, we strongly suggest you have a look at the Demos folder for each of the languages, [MATLAB](https://github.com/CERN/TIGRE/tree/master/MATLAB/Demos) or [Python](https://github.com/CERN/TIGRE/tree/master/Python/demos). 
+
+There is no documentation page for TIGRE (other than the function documentation), but all features are descrived and demonstrated with working code in the demos. They also serve as a tutorial of each feature. We strongly recommend you explore the first 4 demos for the basic TIGRE functionality, and look at the following ones for more advanced geometry or reconstruction functions. 
+
 ## FAQ
 
 For answers to frequently asked questions [click here](Frontispiece/FAQ.md).
@@ -134,6 +144,15 @@ Boardman, Mark Mavrogordato, Manjit Dosanjh, Steven Hancock, Thomas Blumensath*
 [Read the article][4], 
 [Preprint][5]
 
+You can find the most up to date article in the TIGREv3 release paper, with most novel features well documented.
+
+**TIGRE v3: Efficient and easy to use iterative computed tomographic reconstruction toolbox for real datasets**
+*Ander Biguri, Tomoyuki Sadakane, Reuben Lindroos, Yi Liu, Malena Sabaté Landman, Yi Du, Manasavee Lohvithee, Stefanie Kaser, 
+Sepideh Hatamikia, Robert Bryll, Emilien Valat, Sarinrat Wonglee, Thomas Blumensath and Carola-Bibiane Schönlieb*
+**Engineering Research Express**
+
+[Read the article (open access)][6]
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -178,3 +197,4 @@ Boardman, Mark Mavrogordato, Manjit Dosanjh, Steven Hancock, Thomas Blumensath*
 [3]: http://iopscience.iop.org/article/10.1088/2057-1976/2/5/055010
 [4]: https://doi.org/10.1016/j.jpdc.2020.07.004
 [5]: https://arxiv.org/abs/1905.03748
+[6]: https://iopscience.iop.org/article/10.1088/2631-8695/adbb3a
